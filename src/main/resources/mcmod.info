@@ -1,0 +1,16 @@
+[
+{
+  "modid": "apothecary",
+  "name": "ThorneCraft Apothecary",
+  "description": "A Potions mod to replace what was lost from Witchery 1.7.  This includes wool of bat, multiple potion effects in a single potion, and brewing in a cauldron",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Dartania Thorne"],
+  "credits": "Eminoph for the basic idea, Tripp for being supportive, And the Forge Team for making modding simpler.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
