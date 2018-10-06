@@ -3,7 +3,7 @@ package thornecraft.apothecary.proxies;
 import thornecraft.apothecary.items.ModItemsClient;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 
-public class ClientOnlyProxy extends CommonProxy {
+public class ClientProxy extends CommonProxy {
   
   @EventHandler
   public void preInit() {

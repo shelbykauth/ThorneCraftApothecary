@@ -2,7 +2,7 @@ package thornecraft.apothecary.proxies;
 
 import net.minecraftforge.fml.common.Mod.EventHandler;
 
-public class DedicatedServerProxy extends CommonProxy {
+public class ServerProxy extends CommonProxy {
 
   @EventHandler
   public void preInit() {
