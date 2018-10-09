@@ -34,22 +34,6 @@ public class ItemColors {
         }, ModItems.chalk);
     }
     public static void postInit() {
-        // net.minecraft.client.renderer.color.ItemColors itemColors = Minecraft.getMinecraft().getItemColors();
-        // itemColors.registerItemColorHandler(new IItemColor(){
-        //     @Override
-        //     public int colorMultiplier(ItemStack stack, int tintIndex) {
-        //         Apothecary.logger.info(stack.getDisplayName());
-        //         Apothecary.logger.info(tintIndex);
-        //         switch (tintIndex) {
-        //             case 0:
-        //                 String color = EnumDyeColor.byMetadata(stack.getMetadata()).toString();
-        //                 return Color.getColor(color).getRGB();
-        //                 //return Color.white.getRGB();
-        //             case 1:
-        //             default:
-        //                 return Color.white.getRGB();
-        //         }
-        //     }
-        // }, ModItems.chalk);
+        
     }
 }
