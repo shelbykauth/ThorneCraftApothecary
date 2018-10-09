@@ -1,0 +1,19 @@
+<book title="Apothecary: Book One">
+    <chapter id="toc">
+        <page>
+            <title>Apothecary Book One</title>
+            <p><link ref="ch1">- Chapter 1</link></p>
+            <p><link ref="ch2">- Chapter 2</link></p>
+        </page>
+    </chapter>
+    <chapter id="ch1">
+        <page>
+            <title>Chapter 1</title>
+        </page>
+    </chapter>
+    <chapter id="ch2">
+        <page>
+            <title>Chapter 2</title>
+        </page>
+    </chapter>
+</book>

@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "name": "woolOfBat",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "apothecary:wool_of_bat",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 7
+                }
+            ]
+        }
+    ]
+}
