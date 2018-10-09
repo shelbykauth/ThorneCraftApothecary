@@ -14,9 +14,11 @@ public class ClientProxy extends CommonProxy {
   @EventHandler
   public void init() {
     super.init();
+    ModItemsClient.init();
   }
 
   public void postInit() {
     super.postInit();
+    ModItemsClient.postInit();
   }
 }

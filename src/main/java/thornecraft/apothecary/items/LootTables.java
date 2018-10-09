@@ -17,7 +17,6 @@ public class LootTables {
     private static ResourceLocation batTable;
     public static void preInit() {
         batTable = new ResourceLocation("apothecary:inject/bat");
-        Apothecary.logger.info("Bat Table Location found!");
     }
 
     @SubscribeEvent
@@ -26,7 +25,6 @@ public class LootTables {
             LootEntryTable woolOfBat = new LootEntryTable(batTable, 1, 0, new LootCondition[0], "thorne_inject_entry");
             LootPool thornePool = new LootPool(new LootEntryTable[]{woolOfBat}, new LootCondition[0], new RandomValueRange(1), new RandomValueRange(0,1), "thorne_inject_pool");
             event.getTable().addPool(thornePool);
-            Apothecary.logger.info("Loot Table for Bat Found!  Entry Added!");
         }
     }
 }

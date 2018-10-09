@@ -31,7 +31,10 @@ minecraft {
     mappings = "stable_39"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 }
-
+repositories {
+    maven { url 'http://dogforce-games.com/maven' }
+    maven { url 'https://maven.mcmoddev.com' }
+}
 dependencies {
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
@@ -53,7 +56,9 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
+    
+	//compile "gigaherz.commons:gigaherz.commons-1.12.1:0.6.4"
+    //compile "gigaherz.guidebook:Guidebook-1.12.2:2.8.3"
 }
 
 processResources {
